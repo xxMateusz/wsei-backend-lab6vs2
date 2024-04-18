@@ -1,0 +1,17 @@
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\Infrastructure.deps.json
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\Infrastructure.pdb
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.AssemblyInfo.cs
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastr.15EFFBFE.Up2Date
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
