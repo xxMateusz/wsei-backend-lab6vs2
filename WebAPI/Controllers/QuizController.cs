@@ -1,10 +1,12 @@
 ﻿using ApplicationCore.Interfaces;
 using ApplicationCore.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 
 namespace WebAPI.Controllers;
 [ApiController]
+[Authorize(Policy = "Bearer")]
 [Route("/api/v1/quizzes")]
 public class QuizController: ControllerBase
 {
@@ -37,9 +39,9 @@ public class QuizController: ControllerBase
             var answer = _service.SaveUserAnswerForQuiz(quizId, itemId, dto.UserId, dto.UserAnswer);
             return Created("", answer);
         }
-        catch (Exception)
+        catch (Exception ex)
         {
-            return BadRequest();
+            return BadRequest(ex.Message);
         }
     }
 

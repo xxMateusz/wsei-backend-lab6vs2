@@ -74,3 +74,13 @@ C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\obj\D
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\obj\Debug\net7.0\WebAPI.pdb
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\obj\Debug\net7.0\WebAPI.genruntimeconfig.cache
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\obj\Debug\net7.0\ref\WebAPI.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\obj\Debug\net7.0\WebAPI.sourcelink.json
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\JWT.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll

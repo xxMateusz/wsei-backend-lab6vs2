@@ -1,9 +1,10 @@
 using Infrastructure.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure;
 
-public class QuizDbContext : DbContext
+public class QuizDbContext : IdentityDbContext<UserEntity, UserRole, int>
 {
     public DbSet<QuizEntity> Quizzes { get; set; }
     public DbSet<QuizItemEntity> QuizItems { get; set; }
@@ -149,7 +150,7 @@ public class QuizDbContext : DbContext
         
         modelBuilder.Entity<UserEntity>()
             .HasData(
-                new UserEntity {Id=1, Email = "test@gmail.com", Password = "1234"}
+                new UserEntity {Id=1, Email = "test@gmail.com" }
             );
     }
 }

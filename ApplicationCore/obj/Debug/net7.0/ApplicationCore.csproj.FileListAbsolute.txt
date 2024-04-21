@@ -9,3 +9,4 @@ C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\ApplicationC
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+C:\Users\ateor\OneDrive\Desktop\lab6\wsei-backend-lab6entity-master\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json

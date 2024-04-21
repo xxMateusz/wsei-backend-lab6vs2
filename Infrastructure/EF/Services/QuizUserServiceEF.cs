@@ -47,17 +47,6 @@ public class QuizUserServiceEF : IQuizUserService
 
     public QuizItemUserAnswer SaveUserAnswerForQuiz(int quizId, int quizItemId, int userId, string answer)
     {
-        var quizzEntity = _context.Quizzes.FirstOrDefault(q => q.Id == quizId);
-        // if (quizzEntity is null)
-        // {
-        //     throw new QuizNotFoundException($"Quiz with id {quizId} not found");
-        // }
-
-        var item = _context.QuizItems.FirstOrDefault(qi => qi.Id == quizItemId);
-        // if (item is null)
-        // {
-        //     throw new QuizItemNotFoundException($"Quiz item with id {quizId} not found");
-        // }
         QuizItemUserAnswerEntity entity = new QuizItemUserAnswerEntity()
         {
             QuizId = quizId,
@@ -65,12 +54,28 @@ public class QuizUserServiceEF : IQuizUserService
             UserId = userId,
             QuizItemId = quizItemId
         };
-        var savedEntity = _context.Add(entity).Entity;
-        _context.SaveChanges();
-        return _mapper.Map<QuizItemUserAnswer>(_context.UserAnswers
-            .Include(x => x.QuizItem)
-            .ThenInclude(x => x.IncorrectAnswers)
-            .FirstOrDefault(x => x == savedEntity));
+        try
+        {
+            var savedEntity = _context.Add(entity).Entity;
+            _context.SaveChanges();
+            return _mapper.Map<QuizItemUserAnswer>(_context.UserAnswers
+                .Include(x => x.QuizItem)
+                .ThenInclude(x => x.IncorrectAnswers)
+                .FirstOrDefault(x => x == savedEntity));
+        }
+        catch (DbUpdateException e)
+        {
+            if (e.InnerException.Message.StartsWith("The INSERT"))
+            {
+                throw new QuizNotFoundException("Quiz, quiz item or user not found. Can't save!");
+            }
+            if (e.InnerException.Message.StartsWith("Violation of"))
+            {
+                throw new QuizAnswerItemAlreadyExistsException(quizId, quizItemId, userId);
+            }
+            throw new Exception(e.Message);
+        }
+
     }
 
     public List<QuizItemUserAnswer> GetUserAnswersForQuiz(int quizId, int userId)
