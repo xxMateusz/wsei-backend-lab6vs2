@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OnN+Hn+ua0QYkQDD2wfqURadZc4yUBYRXgonSra6DDXSPoBnkQwl6m6/59LtxnSkuTlKrTl0spWgIXF2x7mPzA==",
+  "dgSpecHash": "ARtNWea7wKmZBn2zQoJvK2RXGTYe+ay5M0ys5UZZm+BX2jiqzJmOte4z9mV51hx2zROzN2kv0+FmxTCaTRd6ZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ateor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ateor\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

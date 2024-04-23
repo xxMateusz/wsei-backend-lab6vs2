@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj": {}
+    "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj": {
+    "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj",
+        "projectUniqueName": "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj",
         "projectName": "PdfGenerationService",
-        "projectPath": "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj",
+        "projectPath": "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\PdfGenerationService\\PdfGenerationService.csproj",
         "packagesPath": "C:\\Users\\ateor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\PdfGenerationService\\obj\\",
+        "outputPath": "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\PdfGenerationService\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

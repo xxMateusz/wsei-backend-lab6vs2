@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KWKWiVqlwBO+rZsZcG39SlbOdts8lkMXaa97tT3TI1sMUSFKG2zxXONHV5o4yndKUeOSS0881otlFHowr4dKBg==",
+  "dgSpecHash": "Ge5lWyyoVKzh+bEErezLGuTsoI7wr7f1QI7w4jOSSxXgZcUWkuhb3b1hC/Hm204AZ0g7KMOque8gkCk7uglQlg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ateor\\OneDrive\\Desktop\\lab6\\wsei-backend-lab6entity-master\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\ateor\\OneDrive\\Desktop\\FinalProjectB\\wsei-backend-lab6entity-master\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ateor\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\ateor\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
